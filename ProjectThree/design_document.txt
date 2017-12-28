@@ -1,0 +1,12 @@
+The design document:
+
+Pid() - The contractor  for the class(No arguments).
+~Pid()- The destructor for the class. When using dynamic memory this function is important to release the data.
+int allocate_map() - Function to create the process.
+int allocate_pid() - Function that assign the ID to the process
+void release_pid(int pid) - To release  the ID of a specific process. One argument, the pid to release.
+void display() - Display output at any given time of IDs that in use.
+void sleepSimulation() - The sleep simulation will set the program to wort automatically when the user press 4 in the keyboard.
+						That function will call the allocate_pid number of times.
+void sleepTime(int) - The sleep time demonstrating the illusion that a process is currently running and modifying data. 
+					  The parameter the function gets represent the time that the thread sleeping.
